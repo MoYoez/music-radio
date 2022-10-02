@@ -228,7 +228,7 @@ class DomVisual {
       .then(result => result.text())
       .catch(({ name }) => {
         if (name === 'AbortError') return console.log('cancel')
-        list.push([0, '加载歌词出错，我也不知道问题出在哪里(⑉･̆-･̆⑉)'])
+        list.push([0, '当前歌曲暂无歌词，闭上眼睛静静聆听～'])
       })
     text && text.split('\n').forEach(row => {
       if (!row.includes('[')) return

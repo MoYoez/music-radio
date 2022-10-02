@@ -1,6 +1,6 @@
 window.onload = async function () {
   const PLAY_LIST = await AbortFetch()
-    .fetch('https://qiniu.sukoshi.xyz/cloud-music/song.json?' + Date.now())
+    .fetch('https://music-box.himoyo.cn/list.json')
     .then(result => result.json())
     .catch(error => {
       console.log(error)
@@ -13,9 +13,7 @@ window.onload = async function () {
   let i = Math.floor(Math.random() * PLAY_LIST.length)
 
   dv = new DomVisual([
-    'https://qiniu.sukoshi.xyz/src/images/68135789_p0.jpg',
-    'https://qiniu.sukoshi.xyz/src/images/68686407_p0.jpg',
-    'https://qiniu.sukoshi.xyz/src/images/banner-1.jpg',
+    'https://tva1.sinaimg.cn/large/006pBvLrly1h6r3ctb3h1j31mc0wu0xq.jpg',
   ])
   av = new AudioVisual()
   av.onended = playNext

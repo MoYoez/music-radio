@@ -18,7 +18,7 @@
   width: 100%;
   height: 100%;
   transform: scale(1.19);
-  background-image: url(https://qiniu.sukoshi.xyz/src/images/68135789_p0.jpg);
+  background-image: url(https://tva1.sinaimg.cn/large/006pBvLrly1h6r3ctb3h1j31mc0wu0xq.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -68,6 +68,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   display: block;
+  -webkit-user-select: auto;
   user-select: none;
 }
 
@@ -124,6 +125,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  -webkit-user-select: auto;
   user-select: none;
 }
 

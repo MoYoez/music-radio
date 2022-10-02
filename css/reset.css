@@ -17,6 +17,7 @@ html {
   font-family: cursive, sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  text-size-adjust: auto;
 }
 
 body {
@@ -66,13 +67,6 @@ b, strong {
 
 i, em, dfn {
   font-style: italic;
-}
-
-@font-face {
-  font-family: "iconfont"; /* Project id 690510 */
-  src: url('//at.alicdn.com/t/font_690510_jq4ykoccir.woff2?t=1621500300300') format('woff2'),
-       url('//at.alicdn.com/t/font_690510_jq4ykoccir.woff?t=1621500300300') format('woff'),
-       url('//at.alicdn.com/t/font_690510_jq4ykoccir.ttf?t=1621500300300') format('truetype');
 }
 
 .iconfont {
