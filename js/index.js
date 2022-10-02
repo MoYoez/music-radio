@@ -13,7 +13,7 @@ window.onload = async function () {
   let i = Math.floor(Math.random() * PLAY_LIST.length)
 
   dv = new DomVisual([
-    'https://tva1.sinaimg.cn/large/006pBvLrly1h6r3ctb3h1j31mc0wu0xq.jpg',
+    'https://tva1.sinaimg.cn/large/006pBvLrly1h6r5sgn7kfj325s1e01kx.jpg',
   ])
   av = new AudioVisual()
   av.onended = playNext
